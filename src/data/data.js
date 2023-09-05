@@ -1,6 +1,6 @@
 import { AiFillAppstore } from "react-icons/ai";
-import {  FaBrain} from "react-icons/fa";
-import { SiProgress} from "react-icons/si";
+import { FaBrain } from "react-icons/fa";
+import { SiProgress } from "react-icons/si";
 import { CgWebsite } from "react-icons/cg";
 import { MdAnalytics } from "react-icons/md";
 
@@ -8,37 +8,37 @@ import { MdAnalytics } from "react-icons/md";
 export const featuresData = [
   {
     id: 1,
-    title: "Project Management",
-    des: "Want to gain real-life experience of managing a complete software project cycle.",
+    title: "Front-End Development",
+    des: "I bring pixel-perfect front-end visions to life through code.",
   },
   {
     id: 2,
     icon: <AiFillAppstore />,
-    title: "App Development",
-    des: "Will learn this soon in near future !",
+    title: "WordPress Development",
+    des: "I bring a deep understanding of WordPress to create customized and scalable websites.",
   },
   {
     id: 3,
     icon: <SiProgress />,
-    title: "SEO Optimisation",
-    des: "Will learn this soon in near future !",
+    title: "Back-End Development",
+    des: "I seamlessly integrate user-centric design with robust server-side solutions to deliver web applications.",
   },
   {
     id: 4,
     icon: <CgWebsite />,
-    title: "Web Development",
-    des: "Have completed a MERN stack development course from Udemy. Have developed various projects and hosted them too, check them on my github.",
+    title: "Web Design",
+    des: "I create visually appealing and user-friendly web layouts, graphics, and interactive elements to craft engaging online experiences.",
   },
   {
     id: 5,
     icon: <MdAnalytics />,
-    title: "Data Analyst",
-    des: "Learned data extraction,cleaning, pattern identification & web scrapping skills during my internship. ALso, trained the ML models.",
+    title: "Web Analytics",
+    des: " I implement, configure, and manage web analytics tools to track and analyze user behavior and website performance, enabling data-driven decision-making and optimization of online strategies.",
   },
   {
     id: 6,
     icon: <FaBrain />,
-    title: "Machine Learning",
-    des: "Have completed a ML course from Acmegrade(Partner Mood Indigo IITB). Have developed some projects, check them on my github.",
+    title: "SEO Optimization",
+    des: "I optimize websites and content to improve search engine rankings, increase organic traffic, and enhance online visibility.",
   },
 ];
