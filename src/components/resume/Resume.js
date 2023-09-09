@@ -13,7 +13,7 @@ const Resume = () => {
   return (
     <section id="resume" className="w-full py-20 border-b-[1px] border-b-black">
       <div className="flex justify-center items-center text-center">
-        <Title title="MY  ,y67ACADEMIC AND WORK EXPERIENCE" des="My Resume" />
+        <Title title="MY ACADEMIC AND WORK EXPERIENCE" des="My Resume" />
         ?(6){" "}
       </div>
       :
