@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react";
 import { FaLinkedinIn } from "react-icons/fa";
 import { SiGithub, SiGmail } from "react-icons/si";
-import { logo } from "../../assets/index"
+import { logo } from "../../assets/index";
 
 const Footer = () => {
   return (
@@ -10,16 +10,27 @@ const Footer = () => {
         <img className="w-32" src={logo} alt="logo" />
         <div className="flex gap-4">
           <span className="bannerIcon">
-            <a href="https://github.com/mihirc0111" target="_blank" rel="noopener noreferrer">
-              <SiGithub /></a>
+            <a
+              href="https://github.com/selimensar"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <SiGithub />
+            </a>
           </span>
           <span className="bannerIcon">
-          <a href="mailto:mihirc0111@gmail.com">
-            <SiGmail /></a>
+            <a href="mailto:selimensarkoksa@gmail.com">
+              <SiGmail />
+            </a>
           </span>
           <span className="bannerIcon">
-          <a href="https://www.linkedin.com/in/mihir-chavan-643615234/" target="_blank" rel="noopener noreferrer">
-            <FaLinkedinIn /></a>
+            <a
+              href="https://www.linkedin.com/in/selim-ensar-koksal/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaLinkedinIn />
+            </a>
           </span>
         </div>
       </div>
@@ -136,6 +147,6 @@ const Footer = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Footer
+export default Footer;
