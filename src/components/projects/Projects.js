@@ -7,6 +7,7 @@ import {
   projectFour,
   projectFive,
   projectSix,
+  projectSeven,
 } from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 import ProjectsCard2 from "./ProjectsCard2";
@@ -34,6 +35,13 @@ const Projects = () => {
           src={projectSix}
           githubLink="https://github.com/selimensar/selimensar.github.io"
           websiteLink="https://selimensar.github.io/"
+        />
+        <ProjectsCard
+          title="Advanced Portfolio Website"
+          des="This website was developed using React, Tailwind."
+          src={projectSeven}
+          githubLink="https://github.com/selimensar/React-Tailwind-Portfolio"
+          websiteLink="https://selim-ensar-koksal.vercel.app/"
         />
         <ProjectsCard2
           title="Custom-Built WordPress Website"

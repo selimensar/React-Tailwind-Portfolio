@@ -17,7 +17,7 @@ const Education = () => {
             Educational Qualification
           </h2>
         </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-6 lgl:mt-14 w-full border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title=<a
               href="https://isl.yildiz.edu.tr/en"
@@ -39,7 +39,7 @@ const Education = () => {
           <p className="text-sm text-designColor tracking-[4px]">2020 - 2022</p>
           <h2 className="text-3xl md:text-4xl font-bold">Certificates</h2>
         </div>
-        <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-6 lgl:mt-14 w-full border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
             title=<a
               href="https://hackyourfuture.be/"
