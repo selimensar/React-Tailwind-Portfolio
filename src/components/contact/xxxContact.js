@@ -5,6 +5,26 @@ import emailjs from "emailjs-com";
 
 emailjs.init("MeFiHPCPtIVzAcRW9");
 
+// function sendEmail(e) {
+//   e.preventDefault();
+
+//   emailjs
+//     .sendForm(
+//       "service_iuroldl",
+//       "template_q0i7hvb",
+//       e.target,
+//       "MeFiHPCPtIVzAcRW9"
+//     )
+//     .then(
+//       (result) => {
+//         console.log("Email sent successfully:", result.text);
+//       },
+//       (error) => {
+//         console.error("Email sending failed:", error.text);
+//       }
+//     );
+// }
+
 const Contact = () => {
   const [username, setUsername] = useState("");
   const [phoneNumber, setPhoneNumber] = useState("");
@@ -17,16 +37,19 @@ const Contact = () => {
   // ========== Email Validation start here ==============
   const emailValidation = () => {
     return String(email)
-      .toLowerCase()
+      .toLocaleLowerCase()
       .match(/^\w+([-]?\w+)*@\w+([-]?\w+)*(\.\w{2,3})+$/);
   };
   // ========== Email Validation end here ================
 
-  const sendEmail = async (e) => {
+  function sendEmail(e) {
     e.preventDefault();
+
     // Add your form validation logic here
     if (username === "") {
       setErrMsg("Username is required!");
+      // } else if (phoneNumber === "") {
+      //   setErrMsg("Phone number is required!");
     } else if (email === "") {
       setErrMsg("Please give your Email!");
     } else if (!emailValidation(email)) {
@@ -37,8 +60,8 @@ const Contact = () => {
       setErrMsg("Message is required!");
     } else {
       // If form validation passes, send the email
-      try {
-        const response = await emailjs.send(
+      emailjs
+        .sendForm(
           "service_iuroldl",
           "template_q0i7hvb",
           {
@@ -49,24 +72,53 @@ const Contact = () => {
             message,
           },
           "MeFiHPCPtIVzAcRW9"
-        );
-
-        console.log("Email sent successfully:", response.text);
-        setSuccessMsg(
-          `Thank you, ${username}, your message has been sent successfully!`
-        );
-        setErrMsg("");
-        setUsername("");
-        setPhoneNumber("");
-        setEmail("");
-        setSubject("");
-        setMessage("");
-      } catch (error) {
-        console.error("Email sending failed:", error.text);
-        setErrMsg("Email sending failed. Please try again later.");
-      }
+        )
+        .then((result) => {
+          console.log("Email sent successfully:", result.text);
+          setSuccessMsg(
+            `Thank you, ${username}, your message has been sent successfully!`
+          );
+          setErrMsg("");
+          setUsername("");
+          setPhoneNumber("");
+          setEmail("");
+          setSubject("");
+          setMessage("");
+        })
+        .catch((error) => {
+          console.error("Email sending failed:", error.text);
+          // Handle the error if sending the email fails
+          // You can set an error message or take other actions
+        });
     }
-  };
+  }
+
+  // const handleSend = (e) => {
+  //   e.preventDefault();
+  //   if (username === "") {
+  //     setErrMsg("Username is required!");
+  //   } else if (phoneNumber === "") {
+  //     setErrMsg("Phone number is required!");
+  //   } else if (email === "") {
+  //     setErrMsg("Please give your Email!");
+  //   } else if (!emailValidation(email)) {
+  //     setErrMsg("Give a valid Email!");
+  //   } else if (subject === "") {
+  //     setErrMsg("Plese give your Subject!");
+  //   } else if (message === "") {
+  //     setErrMsg("Message is required!");
+  //   } else {
+  //     setSuccessMsg(
+  //       `Thank you dear ${username}, Your Messages has been sent Successfully!`
+  //     );
+  //     setErrMsg("");
+  //     setUsername("");
+  //     setPhoneNumber("");
+  //     setEmail("");
+  //     setSubject("");
+  //     setMessage("");
+  //   }
+  // };
 
   return (
     <section
@@ -82,6 +134,7 @@ const Contact = () => {
 
           <div className="w-full lgl:w-[60%] h-full py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] flex flex-col gap-8 p-4 lgl:p-8 rounded-lg shadow-shadowOne">
             <form
+              onSubmit={sendEmail}
               id="contactForm"
               className="w-full flex flex-col gap-4 lgl:gap-6 py-2 lgl:py-5"
             >
