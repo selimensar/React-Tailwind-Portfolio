@@ -13,7 +13,7 @@ const Skills = () => {
           <p className="text-sm text-designColor tracking-[4px] uppercase">
             Tech Stack
           </p>
-          <h2 className="text-3xl md:text-4xl font-bold">Development Skill</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">Development Skills</h2>
         </div>
         <div className='className="mt-14 w-full flex flex-col gap-6'>
           <div className="overflow-x-hidden">
@@ -33,7 +33,9 @@ const Skills = () => {
           </div>
 
           <div className="overflow-x-hidden">
-            <p className="text-sm uppercase font-medium">React</p>
+            <p className="text-sm uppercase font-medium">
+              React / Next.js / Typscript / Gatsby.js
+            </p>
             <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}
@@ -76,7 +78,9 @@ const Skills = () => {
             </span>
           </div>
           <div className="overflow-x-hidden">
-            <p className="text-sm uppercase font-medium">WordPress / Shopify</p>
+            <p className="text-sm uppercase font-medium">
+              WordPress / Shopify / Headless CMS
+            </p>
             <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}
@@ -96,12 +100,12 @@ const Skills = () => {
           <p className="text-sm text-designColor tracking-[4px] uppercase">
             Tech Stack
           </p>
-          <h2 className="text-3xl md:text-4xl font-bold">Development Skill</h2>
+          <h2 className="text-3xl md:text-4xl font-bold">Development Skills</h2>
         </div>
 
         <div className="flex flex-col gap-6">
           <div className="overflow-x-hidden">
-            <p className="text-sm uppercase font-medium">Node</p>
+            <p className="text-sm uppercase font-medium">Node.js / PHP</p>
             <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}
@@ -115,7 +119,7 @@ const Skills = () => {
           </div>
 
           <div className="overflow-x-hidden">
-            <p className="text-sm uppercase font-medium">PHP</p>
+            <p className="text-sm uppercase font-medium">ELEMENTOR / DIVI</p>
             <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}
@@ -143,7 +147,7 @@ const Skills = () => {
           </div>
           <div className="overflow-x-hidden">
             <p className="text-sm uppercase font-medium">
-              Google OAuth, Cookies, Passport, Postman API, OpenCV)
+              RESTful APIs / GraphQL / Google OAuth
             </p>
             <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
               <motion.span

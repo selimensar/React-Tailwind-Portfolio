@@ -14,8 +14,8 @@ export const featuresData = [
   {
     id: 2,
     icon: <AiFillAppstore />,
-    title: "WordPress Development",
-    des: "I bring a deep understanding of WordPress to create customized and scalable websites.",
+    title: "CMS Development",
+    des: "I specialize in developing headless CMS websites, leveraging a profound understanding of WordPress and Shopify. My expertise lies in creating tailored and scalable websites to meet unique business needs.",
   },
   {
     id: 3,
@@ -38,7 +38,7 @@ export const featuresData = [
   {
     id: 6,
     icon: <FaBrain />,
-    title: "SEO Optimization",
-    des: "I optimize websites and content to improve search engine rankings, increase organic traffic, and enhance online visibility.",
+    title: "Search Engine Optimization",
+    des: "I perform SEO to optimize websites and content, aiming to improve search engine rankings, boost organic traffic, and enhance online visibility.",
   },
 ];

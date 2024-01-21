@@ -26,11 +26,12 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          I am an enthusiastic Full Stack Developer and dedicated AI enthusiast,
-          driven by my passion for creating exceptional digital experiences.
-          With a robust background in web development and a keen eye for data, I
-          specialize in crafting innovative solutions that seamlessly blend
-          cutting-edge technology with intuitive user interfaces.
+          I am a dynamic Full Stack Developer with a genuine enthusiasm for AI
+          technologies, driven by my dedication to delivering outstanding
+          digital solutions. Possessing a strong foundation in web development
+          and a discerning approach to data, I specialize in architecting
+          inventive solutions that harmoniously integrate advanced technologies
+          with user-friendly interfaces.
         </p>
       </div>
       {/* Media */}

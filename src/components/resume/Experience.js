@@ -28,13 +28,21 @@ const Experience = () => {
             des="In close collaboration with the design team, I implemented captivating user interfaces using HTML, CSS, and JavaScript while adhering to industry best practices for code organization, maintainability, and performance optimization."
           />
           <ResumeCard
+            title="Web Developer & Technical SEO Specialist"
+            subTitle=<a href="https://l8p.ca/" target="_blank" rel="noreferrer">
+              L8P DIGITAL MARKETING | Contractor | (2023/10 - Present)
+            </a>
+            result="Vancouver / Canada"
+            des="n this agency, I do the necessary web development work according to the needs of the customers. I also play an active role in Technical SEO improvements from a web developer perspective."
+          />
+          <ResumeCard
             title="Frontend Developer"
             subTitle=<a
               href="https://mobileactive.ca/"
               target="_blank"
               rel="noreferrer"
             >
-              Mobile Active Technologies | Part-Time | (2022/08 - Present)
+              Mobile Active Technologies | Full-Time | (2022/08 - 2022/10)
             </a>
             result="Vancouver / Canada"
             des="This is a wholesale company that sells all kinds of phone parts. As a Front-End developer, I'm doing custom design and development to increase the user experience for the e-commerce website."

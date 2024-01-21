@@ -39,6 +39,7 @@ const Achievement = () => {
             // result="206/300"
             // des="Passed with good marks in the exam and also received scholarship money till the completion of 10th std. Rank:- 33/1617 who got the scholarship (all passed students are not given scholarship)."
           />
+          <ResumeCard title="Arabic" subTitle="Beginner" />
         </div>
       </div>
       {/* <div className="flex-1">

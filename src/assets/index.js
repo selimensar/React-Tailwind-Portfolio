@@ -8,6 +8,8 @@ import projectFive from "./images/projects/projectFive.png";
 import projectSix from "./images/projects/projectSix.png";
 import projectSeven from "./images/projects/projectSeven.png";
 import contactImg from "./images/contact/contactImg.png";
+import projectEight from "./images/projects/projectEight.png";
+import projectNine from "./images/projects/projectNine.png";
 
 export {
   logo,
@@ -19,5 +21,7 @@ export {
   projectFive,
   projectSix,
   projectSeven,
+  projectEight,
+  projectNine,
   contactImg,
 };
