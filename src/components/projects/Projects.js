@@ -29,7 +29,7 @@ const Projects = () => {
           des="This is a headless wordpress website. Its front-end was built in React environment using Gatsby.js. WordPress was used for its back-end. Also, GraphQL and ACF tools were used."
           src={projectEight}
           githubLink="https://github.com/selimensar/gatsby-car-sales-garage"
-          websiteLink="https://gatsby-v5-test.vercel.app/"
+          websiteLink="https://gatsbyjs-car-sales-garage.vercel.app/"
         />
         <ProjectsCard
           title="E-commerce Website by Next.js"
