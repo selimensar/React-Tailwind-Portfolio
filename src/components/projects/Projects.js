@@ -10,6 +10,7 @@ import {
   projectSeven,
   projectEight,
   projectNine,
+  projectTen,
 } from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 import ProjectsCard2 from "./ProjectsCard2";
@@ -51,6 +52,12 @@ const Projects = () => {
           src={projectSeven}
           githubLink="https://github.com/selimensar/React-Tailwind-Portfolio"
           websiteLink="https://selim-ensar-koksal.vercel.app/"
+        />
+             <ProjectsCard2
+          title="Custom-Design Website"
+          des="This website was built on WordPress using HTML, CSS, JS, and PHP. I utilized Elementor and also developed custom page templates."
+          src={projectTen}
+          websiteLink="https://moraleasmeadow.ca/"
         />
         <ProjectsCard2
           title="Custom-Built WordPress Website"
