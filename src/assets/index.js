@@ -1,5 +1,6 @@
 import logo from "./images/logo.png";
 import bannerImage from "./images/bannerImage.jpeg";
+import moreleasmeadow from "./images/moreleasmeadow.jpeg";
 import projectOne from "./images/projects/projectOne.png";
 import projectTwo from "./images/projects/projectTwo.png";
 import projectThree from "./images/projects/projectThree.png";
@@ -24,4 +25,5 @@ export {
   projectEight,
   projectNine,
   contactImg,
+  moreleasmeadow,
 };
