@@ -10,7 +10,7 @@ import {
   projectSeven,
   projectEight,
   projectNine,
-  projectTen,
+  moreleasmeadow,
 } from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 import ProjectsCard2 from "./ProjectsCard2";
@@ -56,7 +56,7 @@ const Projects = () => {
              <ProjectsCard2
           title="Custom-Design Website"
           des="This website was built on WordPress using HTML, CSS, JS, and PHP. I utilized Elementor and also developed custom page templates."
-          src={projectTen}
+          src={moreleasmeadow}
           websiteLink="https://moraleasmeadow.ca/"
         />
         <ProjectsCard2
