@@ -11,6 +11,7 @@ import {
   projectEight,
   projectNine,
   moreleasmeadow,
+  sunriver,
 } from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 import ProjectsCard2 from "./ProjectsCard2";
