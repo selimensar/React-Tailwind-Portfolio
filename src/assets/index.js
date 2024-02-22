@@ -8,6 +8,7 @@ import projectFour from "./images/projects/projectFour.png";
 import projectFive from "./images/projects/projectFive.png";
 import projectSix from "./images/projects/projectSix.png";
 import projectSeven from "./images/projects/projectSeven.png";
+import projectSeven from "./images/projects/sunriver.png";
 import contactImg from "./images/contact/contactImg.png";
 import projectEight from "./images/projects/projectEight.png";
 import projectNine from "./images/projects/projectNine.png";
@@ -26,4 +27,5 @@ export {
   projectNine,
   contactImg,
   moreleasmeadow,
+  sunriver,
 };
