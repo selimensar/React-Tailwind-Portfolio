@@ -66,6 +66,12 @@ const Projects = () => {
           websiteLink="https://fabercommunications.com/"
         />
         <ProjectsCard2
+          title="WordPress Website for a Dental Centre"
+          des="This project highlights my ability to combine technical expertise with a focus on user experience, providing a valuable asset for the healthcare industry in the digital space."
+          src={sunriver}
+          websiteLink="https://sunriverdental.ca/"
+        />
+        <ProjectsCard2
           title="Custom-Design Shopify Website"
           des=" This website was developed using Liquid, HTML/CSS, JS. And the product images were uploaded to the website after editing by Photoshop. "
           src={projectTwo}
