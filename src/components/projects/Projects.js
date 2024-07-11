@@ -10,6 +10,9 @@ import {
   projectSeven,
   projectEight,
   projectNine,
+  projectTen,
+  projectEleven,
+  projectTwelve,
   moreleasmeadow,
   sunriver,
 } from "../../assets/index";
@@ -26,6 +29,30 @@ const Projects = () => {
         <Title title="Check these out on my github" des="My Projects" />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
+      <ProjectsCard2
+          title="Medical Clinic Website"
+          des="#MongoDB, #Express, #React, #Node.js
+          This website contains five different React apps for various medical services. Here, patients can register and, after logging in, access applications such as lab test requests, sick note requests, appointments, and medication inquiries."
+          src={projectTen}
+          websiteLink="https://southvanmed.com/"
+        />
+        <ProjectsCard2 
+          title="Ask Medication App"
+          des="#Full-Stack-Development, #React, #Bootstrap, #Express, #Stripe, #Node.js
+          This app for simple online prescription refills. Skip the wait at the medical clinic and obtain your prescription online. Pick up your medication at any pharmacy in British Columbia."
+          src={projectEleven}
+          websiteLink="https://www.askmedication.com/"
+        />
+        <ProjectsCard2
+          title="Another Clinic Website"
+          des="#MERN-Stack, #FrontEnd, #Backend-Dev
+          This website contains five different React apps for various medical services available in two languages. Here, patients can register and, after logging in, access applications such as lab test requests, sick note requests, appointments, and medication inquiries."
+          src={projectTwelve}
+          websiteLink="https://instoremed.com/"
+        />
+
+
+
         <ProjectsCard
           title="Gatsby.js car sales garage"
           des="This is a headless wordpress website. Its front-end was built in React environment using Gatsby.js. WordPress was used for its back-end. Also, GraphQL and ACF tools were used."
@@ -41,20 +68,20 @@ const Projects = () => {
           websiteLink="https://sek-next-ecommerce.vercel.app/"
         />
         <ProjectsCard
-          title="Portfolio Website"
-          des="This website was developed using vanilla HTML, CSS, JS to showcase on GitHub."
-          src={projectSix}
-          githubLink="https://github.com/selimensar/selimensar.github.io"
-          websiteLink="https://selimensar.github.io/"
-        />
-        <ProjectsCard
           title="Advanced Portfolio Website"
           des="This website was developed using React, Tailwind."
           src={projectSeven}
           githubLink="https://github.com/selimensar/React-Tailwind-Portfolio"
           websiteLink="https://selim-ensar-koksal.vercel.app/"
         />
-             <ProjectsCard2
+        <ProjectsCard
+          title="Portfolio Website"
+          des="This website was developed using vanilla HTML, CSS, JS to showcase on GitHub."
+          src={projectSix}
+          githubLink="https://github.com/selimensar/selimensar.github.io"
+          websiteLink="https://selimensar.github.io/"
+        />
+          <ProjectsCard2
           title="Custom-Design Website"
           des="This website was built on WordPress using HTML, CSS, JS, and PHP. I utilized Elementor and also developed custom page templates."
           src={moreleasmeadow}

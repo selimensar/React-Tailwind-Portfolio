@@ -4,7 +4,7 @@ import Media from "./Media";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
-    words: ["Full Stack Web Developer."],
+    words: ["Full Stack Web Developer", "Front-End Developer", "WordPress Developer", "Shopify Developer", "MERN Stack Developer"],
     loop: true,
     typeSpeed: 20,
     deleteSpeed: 10,
@@ -26,12 +26,11 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-          I am a dynamic Full Stack Developer with a genuine enthusiasm for AI
-          technologies, driven by my dedication to delivering outstanding
-          digital solutions. Possessing a strong foundation in web development
-          and a discerning approach to data, I specialize in architecting
-          inventive solutions that harmoniously integrate advanced technologies
-          with user-friendly interfaces.
+        passionate about crafting innovative digital solutions. With expertise in both front-end and back-end technologies, I specialize in: Developing robust web applications using MongoDB, Express.js, React.js, and Node.js (MERN stack).
+Designing intuitive user interfaces with HTML, CSS, JavaScript, React, Next.js, and TypeScript.
+Creating seamless CMS experiences with WordPress, Shopify, Craft, and Contentful.
+Implementing effective SEO strategies, managing Google Ads campaigns, and leveraging data analytics for informed decisions.
+Explore my portfolio to see how I blend technical proficiency with creative problem-solving to deliver exceptional digital solutions.
         </p>
       </div>
       {/* Media */}

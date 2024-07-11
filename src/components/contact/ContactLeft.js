@@ -24,7 +24,7 @@ const ContactLeft = () => {
         <p className="text-base text-gray-400 flex items-center gap-2">
           Phone:{" "}
           <span className="text-lightText">
-            +1 Lets's get started via Email.
+            +1 (226) 752-4015
           </span>
         </p>
         <p className="text-base text-gray-400 flex items-center gap-2">

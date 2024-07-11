@@ -12,6 +12,9 @@ import sunriver from "./images/projects/sunriver.png";
 import contactImg from "./images/contact/contactImg.png";
 import projectEight from "./images/projects/projectEight.png";
 import projectNine from "./images/projects/projectNine.png";
+import projectTen from "./images/projects/projectTen.png";
+import projectEleven from "./images/projects/projectEleven.png";
+import projectTwelve from "./images/projects/projectTwelve.png";
 
 export {
   logo,
@@ -25,6 +28,9 @@ export {
   projectSeven,
   projectEight,
   projectNine,
+  projectTen,
+  projectEleven,
+  projectTwelve,
   contactImg,
   moreleasmeadow,
   sunriver,

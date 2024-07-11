@@ -105,7 +105,7 @@ const Skills = () => {
 
         <div className="flex flex-col gap-6">
           <div className="overflow-x-hidden">
-            <p className="text-sm uppercase font-medium">Node.js / PHP</p>
+            <p className="text-sm uppercase font-medium">Node.js / PHP / Express.js / MongoDB</p>
             <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
               <motion.span
                 initial={{ x: "-100%", opacity: 0 }}
@@ -147,7 +147,7 @@ const Skills = () => {
           </div>
           <div className="overflow-x-hidden">
             <p className="text-sm uppercase font-medium">
-              RESTful APIs / GraphQL / Google OAuth
+              RESTful APIs / GraphQL / Google OAuth / AWS CodeCommit
             </p>
             <span className="w-full h-2 bgOpacity rounded-md inline-flex mt-2">
               <motion.span
