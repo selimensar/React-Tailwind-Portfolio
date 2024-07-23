@@ -4,7 +4,7 @@ import Media from "./Media";
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
-    words: ["Full Stack Web Developer", "Front-End Developer", "WordPress Developer", "Shopify Developer", "MERN Stack Developer"],
+    words: ["Full Stack Web Developer", "Front-End Developer", "WordPress Developer", "Shopify Developer", "MERN Stack Developer", "SEO Specialist", "Digital Marketer"],
     loop: true,
     typeSpeed: 20,
     deleteSpeed: 10,
@@ -26,14 +26,18 @@ const LeftBanner = () => {
           />
         </h2>
         <p className="text-base font-bodyFont leading-6 tracking-wide">
-        passionate about crafting innovative digital solutions. With expertise in both front-end and back-end technologies, I specialize in: Developing robust web applications using MongoDB, Express.js, React.js, and Node.js (MERN stack).
-Designing intuitive user interfaces with HTML, CSS, JavaScript, React, Next.js, and TypeScript.
-Creating seamless CMS experiences with WordPress, Shopify, Craft, and Contentful.
-Implementing effective SEO strategies, managing Google Ads campaigns, and leveraging data analytics for informed decisions.
-Explore my portfolio to see how I blend technical proficiency with creative problem-solving to deliver exceptional digital solutions.
+          I am passionate about crafting innovative digital solutions. With expertise in both front-end and back-end technologies, I specialize in:
+        </p>
+        <ul className="text-base font-bodyFont leading-6 tracking-wide list-disc list-inside">
+          <li>Developing robust web applications using MongoDB, Express.js, React.js, and Node.js (MERN stack).</li>
+          <li>Designing intuitive user interfaces with HTML, CSS, JavaScript, React, Next.js, and TypeScript.</li>
+          <li>Creating seamless CMS experiences with WordPress, Shopify, Craft, and Contentful.</li>
+          <li>Implementing effective SEO strategies, managing Google Ads campaigns, and leveraging data analytics for informed decisions.</li>
+        </ul>
+        <p className="text-base font-bodyFont leading-6 tracking-wide">
+          Explore my portfolio to see how I blend technical proficiency with creative problem-solving to deliver exceptional digital solutions.
         </p>
       </div>
-      {/* Media */}
       <Media />
     </div>
   );

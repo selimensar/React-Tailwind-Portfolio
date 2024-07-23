@@ -15,28 +15,7 @@ const Experience = () => {
           <h2 className="text-4xl font-bold">Job Experience</h2>
         </div>
         <div className="mt-14 w-4/5 h-[2000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
-          <ResumeCard
-            title="Full Stack Web Developer"
-            subTitle=<a
-              href="https://southvanmed.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              South Vancouver Medical Clinic | Full-Time | (2024/03 - Present)
-            </a>
-            result="Vancouver / Canada"
-            des="Role Overview:
-As a Full Stack Developer at South Vancouver Medical Clinic, I am responsible for designing, developing, and deploying scalable web applications that enhance operational efficiency and user satisfaction. I lead the integration of payment gateways such as Stripe and PayPal, ensuring secure transactions and seamless user interactions.
-
-Key Responsibilities:
-
-Frontend Development: Utilize Bootstrap for responsive UI/UX design, ensuring optimal user experience across devices.
-Backend Development: Implement RESTful APIs using Node.js and Express.js, enabling efficient data retrieval and manipulation.
-Database Management: Design and optimize MongoDB databases for high performance and scalability.
-SEO and Digital Marketing: Execute SEO strategies and manage Google Ads campaigns to improve online visibility and drive traffic.
-Chrome Extension Development: Innovate by creating Chrome extensions to enhance functionality and user engagement.
-Team Collaboration: Work closely with cross-functional teams including designers, product managers, and stakeholders to translate business requirements into technical solutions."
-          />
+          
           <ResumeCard
             title="Full Stack Web Developer"
             subTitle=<a
@@ -47,15 +26,27 @@ Team Collaboration: Work closely with cross-functional teams including designers
               Fairwind Creative | Contractor | (2023/04 - Present)
             </a>
             result="Vancouver / Canada"
-            des="In close collaboration with the design team, I implemented captivating user interfaces using HTML, CSS, and JavaScript while adhering to industry best practices for code organization, maintainability, and performance optimization."
+            des="I am dedicated to crafting engaging and visually appealing user interfaces for web applications using a diverse technology stack. I translate design concepts into fully functional web experiences. Leveraging my expertise in HTML, CSS, JavaScript, React, Next.js, PHP, and Node.js. Additionally, I develop and maintain WordPress and Shopify sites, ensuring robust performance and scalability."
+          />
+          <ResumeCard
+            title="Full Stack Web Developer"
+            subTitle=<a
+              href="https://southvanmed.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              South Vancouver Medical Clinic | Full-Time | (2024/03/01 - 2024/07/15)
+            </a>
+            result="Vancouver / Canada"
+            des="I'm actively engaged in both backend and frontend development at this company, where I create dynamic websites and applications using MongoDB, Express.js, React.js, and Node.js. In addition, I develop custom Chrome extensions to solve specific problems as needed, and I manipulate APIs to ensure seamless integration and functionality. I develop and deploy custom full-stack applications on AWS. I use AWS CodeCommit and Git version control for facilitating efficient collaboration, code review, and continuous integration."
           />
           <ResumeCard
             title="Web Developer & Technical SEO Specialist"
             subTitle=<a href="https://l8p.ca/" target="_blank" rel="noreferrer">
-              L8P DIGITAL MARKETING | Contractor | (2023/10 - 2024-04)
+              L8P DIGITAL MARKETING | Contractor | (2023/10 - 2024/04)
             </a>
             result="Vancouver / Canada"
-            des="n this agency, I do the necessary web development work according to the needs of the customers. I also play an active role in Technical SEO improvements from a web developer perspective."
+            des="In this agency, I do the necessary web development work according to the needs of the customers. I also play an active role in Technical SEO improvements from a web developer perspective."
           />
           <ResumeCard
             title="Frontend Developer"
