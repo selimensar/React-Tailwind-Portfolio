@@ -17,7 +17,7 @@ import {
   sunriver,
   myTrillo,
   myNatours,
-  myNexter
+  myNexter,
 } from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 import ProjectsCard2 from "./ProjectsCard2";
@@ -28,7 +28,7 @@ const projectsData = [
     des: "#MongoDB, #Express, #React, #Node.js This website contains five different React apps for various medical services. Here, patients can register and, after logging in, access applications such as lab test requests, sick note requests, appointments, and medication inquiries.",
     src: projectTen,
     websiteLink: "https://southvanmed.com/",
-    category: "Full-Stack",
+    category: ["Full-Stack"],
     type: "card2",
   },
   {
@@ -36,7 +36,7 @@ const projectsData = [
     des: "#Full-Stack-Development, #React, #Bootstrap, #Express, #Stripe, #Node.js This app for simple online prescription refills. Skip the wait at the medical clinic and obtain your prescription online. Pick up your medication at any pharmacy in British Columbia.",
     src: projectEleven,
     websiteLink: "https://www.askmedication.com/",
-    category: "Full-Stack",
+    category: ["Full-Stack"],
     type: "card2",
   },
   {
@@ -44,7 +44,7 @@ const projectsData = [
     des: "#MERN-Stack, #FrontEnd, #Backend-Dev This website contains five different React apps for various medical services available in two languages. Here, patients can register and, after logging in, access applications such as lab test requests, sick note requests, appointments, and medication inquiries.",
     src: projectTwelve,
     websiteLink: "https://instoremed.com/",
-    category: "Full-Stack",
+    category: ["Full-Stack"],
     type: "card2",
   },
   {
@@ -53,7 +53,7 @@ const projectsData = [
     src: projectEight,
     githubLink: "https://github.com/selimensar/gatsby-car-sales-garage",
     websiteLink: "https://gatsbyjs-car-sales-garage.vercel.app/",
-    category: "Full-Stack, WordPress",
+    category: ["Full-Stack", "WordPress"],
     type: "card",
   },
   {
@@ -62,7 +62,7 @@ const projectsData = [
     src: projectOne,
     githubLink: "https://github.com/selimensar/sek-next-ecommerce",
     websiteLink: "https://sek-next-ecommerce.vercel.app/",
-    category: "Full-Stack",
+    category: ["Full-Stack"],
     type: "card",
   },
   {
@@ -71,7 +71,7 @@ const projectsData = [
     src: projectSeven,
     githubLink: "https://github.com/selimensar/React-Tailwind-Portfolio",
     websiteLink: "https://selim-ensar-koksal.vercel.app/",
-    category: "Front-End",
+    category: ["Front-End"],
     type: "card",
   },
   {
@@ -80,7 +80,7 @@ const projectsData = [
     src: myTrillo,
     githubLink: "https://github.com/selimensar/my-trillo",
     websiteLink: "https://my-trillo.vercel.app/",
-    category: "Front-End",
+    category: ["Front-End"],
     type: "card",
   },
   {
@@ -89,7 +89,7 @@ const projectsData = [
     src: myNexter,
     githubLink: "https://github.com/selimensar/my-nexter",
     websiteLink: "https://my-nexter.vercel.app/",
-    category: "Front-End",
+    category: ["Front-End"],
     type: "card",
   },
   {
@@ -98,7 +98,7 @@ const projectsData = [
     src: myNatours,
     githubLink: "https://my-natours-alpha.vercel.app/",
     websiteLink: "https://github.com/selimensar/my-natours",
-    category: "Front-End",
+    category: ["Front-End"],
     type: "card",
   },
   {
@@ -107,7 +107,7 @@ const projectsData = [
     src: projectSix,
     githubLink: "https://github.com/selimensar/selimensar.github.io",
     websiteLink: "https://selimensar.github.io/",
-    category: "Front-End",
+    category: ["Front-End"],
     type: "card",
   },
   {
@@ -115,7 +115,7 @@ const projectsData = [
     des: "This website was built on WordPress using HTML, CSS, JS, and PHP. I utilized Elementor and also developed custom page templates.",
     src: moreleasmeadow,
     websiteLink: "https://moraleasmeadow.ca/",
-    category: "WordPress",
+    category: ["WordPress"],
     type: "card2",
   },
   {
@@ -123,7 +123,7 @@ const projectsData = [
     des: "This website was built on WordPress exactly in accordance with the design prepared according to the wishes of the customer through Adobe XD.",
     src: projectFour,
     websiteLink: "https://fabercommunications.com/",
-    category: "WordPress",
+    category: ["WordPress"],
     type: "card2",
   },
   {
@@ -131,7 +131,7 @@ const projectsData = [
     des: "This project highlights my ability to combine technical expertise with a focus on user experience, providing a valuable asset for the healthcare industry in the digital space.",
     src: sunriver,
     websiteLink: "https://sunriverdental.ca/",
-    category: "WordPress",
+    category: ["WordPress"],
     type: "card2",
   },
   {
@@ -139,7 +139,7 @@ const projectsData = [
     des: "This website was developed using Liquid, HTML/CSS, JS. And the product images were uploaded to the website after editing by Photoshop.",
     src: projectTwo,
     websiteLink: "https://mobileactive.ca/",
-    category: "Shopify",
+    category: ["Shopify"],
     type: "card2",
   },
   {
@@ -147,7 +147,7 @@ const projectsData = [
     des: "This website was developed by custom wordpress development using HTML, CSS, JS and PHP.",
     src: projectThree,
     websiteLink: "https://digibib.info/",
-    category: "WordPress",
+    category: ["WordPress"],
     type: "card2",
   },
   {
@@ -155,7 +155,7 @@ const projectsData = [
     des: "This is an agency website built on WordPress through custom theme development.",
     src: projectFive,
     websiteLink: "https://www.fairwindcreativestudio.com/",
-    category: "WordPress",
+    category: ["WordPress"],
     type: "card2",
   },
   {
@@ -163,7 +163,7 @@ const projectsData = [
     des: "Some parts of this website were developed with custom WordPress theme development and some pages were developed using DIVI Builder.",
     src: projectNine,
     websiteLink: "https://rockymountaincycle.com/",
-    category: "WordPress",
+    category: ["WordPress"],
     type: "card2",
   },
 ];
@@ -173,7 +173,7 @@ const Projects = () => {
 
   const filteredProjects = selectedCategory === "All"
     ? projectsData
-    : projectsData.filter(project => project.category === selectedCategory);
+    : projectsData.filter(project => project.category.includes(selectedCategory));
 
   return (
     <section id="projects" className="w-full py-20 border-b-[1px] border-b-black">
