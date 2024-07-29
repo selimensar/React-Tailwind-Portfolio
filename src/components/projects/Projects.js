@@ -17,7 +17,7 @@ import {
   sunriver,
   myTrillo,
   myNatour,
-  myNexter,
+  myNexter
 } from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 import ProjectsCard2 from "./ProjectsCard2";
