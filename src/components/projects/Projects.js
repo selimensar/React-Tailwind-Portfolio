@@ -15,9 +15,9 @@ import {
   projectTwelve,
   moreleasmeadow,
   sunriver,
-  my-trillo,
-  my-natour,
-  my-nexter
+  myTrillo,
+  myNatour,
+  myNexter,
 } from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 import ProjectsCard2 from "./ProjectsCard2";
