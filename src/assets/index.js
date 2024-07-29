@@ -39,5 +39,5 @@ export {
   sunriver,
   myNatours,
   myNexter,
-  myNexter,
+  myNatours,
 };
