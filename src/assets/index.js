@@ -15,9 +15,9 @@ import projectNine from "./images/projects/projectNine.png";
 import projectTen from "./images/projects/projectTen.png";
 import projectEleven from "./images/projects/projectEleven.png";
 import projectTwelve from "./images/projects/projectTwelve.png";
-import myNatours from "./images/projects/my-natours.png"; 
-import myNexter from "./images/projects/my-nexter.png"; 
-import myTrillo from "./images/projects/my-trillo.png"; 
+import myNatours from "./images/projects/my-natours.png";
+import myNexter from "./images/projects/my-nexter.png";
+import myTrillo from "./images/projects/my-trillo.png";
 
 export {
   logo,
