@@ -77,7 +77,7 @@ const projectsData = [
     {
     title: "Booking Web App Front-End",
     des: "This Front-End project was developed using HTML, CSS, JS for a booking web app.",
-    src: my-trillo,
+    src: myTrillo,
     githubLink: "https://github.com/selimensar/my-trillo",
     websiteLink: "https://my-trillo.vercel.app/",
     category: "Front-End",
@@ -86,7 +86,7 @@ const projectsData = [
    {
     title: "Advanced Homepage Design",
     des: "This Front-End project was developed using HTML, CSS, JS for a home sales website.",
-    src: my-nexter,
+    src: myNexter,
     githubLink: "https://github.com/selimensar/my-nexter",
     websiteLink: "https://my-nexter.vercel.app/",
     category: "Front-End",
@@ -95,7 +95,7 @@ const projectsData = [
    {
     title: "Creative Homepage Design",
     des: "This Front-End project was developed using HTML, CSS, JS for a tour website.",
-    src: my-natours,
+    src: myNatours,
     githubLink: "https://my-natours-alpha.vercel.app/",
     websiteLink: "https://github.com/selimensar/my-natours",
     category: "Front-End",
