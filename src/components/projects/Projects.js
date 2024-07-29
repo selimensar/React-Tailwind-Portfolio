@@ -15,6 +15,9 @@ import {
   projectTwelve,
   moreleasmeadow,
   sunriver,
+  my-trillo,
+  my-natour,
+  my-nexter
 } from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 import ProjectsCard2 from "./ProjectsCard2";
@@ -74,7 +77,7 @@ const projectsData = [
     {
     title: "Booking Web App Front-End",
     des: "This Front-End project was developed using HTML, CSS, JS for a booking web app.",
-    src: projectSeven,
+    src: my-trillo,
     githubLink: "https://github.com/selimensar/my-trillo",
     websiteLink: "https://my-trillo.vercel.app/",
     category: "Front-End",
@@ -83,7 +86,7 @@ const projectsData = [
    {
     title: "Advanced Homepage Design",
     des: "This Front-End project was developed using HTML, CSS, JS for a home sales website.",
-    src: projectSeven,
+    src: my-nexter,
     githubLink: "https://github.com/selimensar/my-nexter",
     websiteLink: "https://my-nexter.vercel.app/",
     category: "Front-End",
@@ -92,7 +95,7 @@ const projectsData = [
    {
     title: "Creative Homepage Design",
     des: "This Front-End project was developed using HTML, CSS, JS for a tour website.",
-    src: projectSeven,
+    src: my-natours,
     githubLink: "https://my-natours-alpha.vercel.app/",
     websiteLink: "https://github.com/selimensar/my-natours",
     category: "Front-End",
