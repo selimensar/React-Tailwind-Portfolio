@@ -74,7 +74,7 @@ const projectsData = [
     category: "Front-End",
     type: "card",
   },
-    {
+  {
     title: "Booking Web App Front-End",
     des: "This Front-End project was developed using HTML, CSS, JS for a booking web app.",
     src: myTrillo,
@@ -83,7 +83,7 @@ const projectsData = [
     category: "Front-End",
     type: "card",
   },
-   {
+  {
     title: "Advanced Homepage Design",
     des: "This Front-End project was developed using HTML, CSS, JS for a home sales website.",
     src: myNexter,
@@ -92,7 +92,7 @@ const projectsData = [
     category: "Front-End",
     type: "card",
   },
-   {
+  {
     title: "Creative Homepage Design",
     des: "This Front-End project was developed using HTML, CSS, JS for a tour website.",
     src: myNatours,
