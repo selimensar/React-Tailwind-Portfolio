@@ -53,7 +53,7 @@ const projectsData = [
     src: projectEight,
     githubLink: "https://github.com/selimensar/gatsby-car-sales-garage",
     websiteLink: "https://gatsbyjs-car-sales-garage.vercel.app/",
-    category: "WordPress",
+    category: ["Full-Stack", "WordPress"],
     type: "card",
   },
   {
