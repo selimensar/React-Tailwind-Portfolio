@@ -16,7 +16,7 @@ import {
   moreleasmeadow,
   sunriver,
   myTrillo,
-  myNatour,
+  myNatours,
   myNexter
 } from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
