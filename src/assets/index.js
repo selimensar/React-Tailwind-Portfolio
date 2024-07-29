@@ -15,6 +15,9 @@ import projectNine from "./images/projects/projectNine.png";
 import projectTen from "./images/projects/projectTen.png";
 import projectEleven from "./images/projects/projectEleven.png";
 import projectTwelve from "./images/projects/projectTwelve.png";
+import my-natours from "./images/projects/my-natours.png"; 
+import my-nexter from "./images/projects/my-nexter.png"; 
+import my-trillo from "./images/projects/my-trillo.png"; 
 
 export {
   logo,
@@ -34,4 +37,7 @@ export {
   contactImg,
   moreleasmeadow,
   sunriver,
+  my-natours,
+  my-nexter,
+  my-trillo,
 };
