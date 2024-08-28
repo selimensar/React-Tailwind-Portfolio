@@ -18,6 +18,7 @@ import projectTwelve from "./images/projects/projectTwelve.png";
 import myNatours from "./images/projects/my-natours.png";
 import myNexter from "./images/projects/my-nexter.png";
 import myTrillo from "./images/projects/my-trillo.png";
+import earplugs from "./images/projects/earplugs.png";
 
 export {
   logo,
@@ -40,4 +41,5 @@ export {
   myNatours,
   myNexter,
   myTrillo,
+  earplugs,
 };
