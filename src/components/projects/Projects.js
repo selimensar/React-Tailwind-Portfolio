@@ -145,7 +145,7 @@ const projectsData = [
   },
   {
     title: "Shop Earplugs",
-    des: "This website was developed using Liquid, HTML/CSS, JS editing with Shopify Habitat Theme.",
+    des: "This website was developed using Liquid, HTML/CSS, JS with Shopify Habitat Theme.",
     src: earplugs,
     websiteLink: "https://worldsfinestearplugs.com/",
     category: ["Shopify"],
