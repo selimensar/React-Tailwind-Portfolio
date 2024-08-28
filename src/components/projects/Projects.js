@@ -18,6 +18,7 @@ import {
   myTrillo,
   myNatours,
   myNexter,
+  earplugs,
 } from "../../assets/index";
 import ProjectsCard from "./ProjectsCard";
 import ProjectsCard2 from "./ProjectsCard2";
@@ -139,6 +140,14 @@ const projectsData = [
     des: "This website was developed using Liquid, HTML/CSS, JS. And the product images were uploaded to the website after editing by Photoshop.",
     src: projectTwo,
     websiteLink: "https://mobileactive.ca/",
+    category: ["Shopify"],
+    type: "card2",
+  },
+  {
+    title: "Shop Earplugs",
+    des: "This website was developed using Liquid, HTML/CSS, JS editing with Shopify Habitat Theme.",
+    src: earplugs,
+    websiteLink: "https://worldsfinestearplugs.com/",
     category: ["Shopify"],
     type: "card2",
   },
