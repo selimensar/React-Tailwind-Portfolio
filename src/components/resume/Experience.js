@@ -15,11 +15,24 @@ const Experience = () => {
           <h2 className="text-4xl font-bold">Job Experience</h2>
         </div>
         <div className="mt-14 w-4/5 h-[2000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+
+        <ResumeCard
+            title="Frontend Developer"
+            subTitle=<a
+              href="https://generalinternet.ca/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              General Internet | Full-Time | (2024/10 - Present)
+            </a>
+            result="Coquitlam / Canada"
+            des="I'm creating responsive, user-friendly web interfaces using modern frameworks and technologies like HTML, CSS, JavaScript, and React. Also I'm doing WordPress and Shopify Development."
+          />
           
           <ResumeCard
             title="Full Stack Web Developer"
             subTitle=<a
-              href="https://www.fairwindcreativestudio.com/our-roots/"
+              href="https://fairwindcreative.com/our-roots/"
               target="_blank"
               rel="noreferrer"
             >
